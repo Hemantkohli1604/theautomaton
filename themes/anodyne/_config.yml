@@ -1,0 +1,62 @@
+# Logo
+logo_image_source: /about/anodyne.svg
+
+# Index Page
+index_banner_text: The Automaton
+index_banner_text_secondary: Like all drugs technology works wonders in healthy dosage.
+index_font_awesome_icon_css: fa fa-magic
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about.html
+#  Contact: /contact.html
+
+# Post
+default_post_title: Hemant
+default_post_icon: fa-file-text-o
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+archive_font_awesome_icon_css: fa-folder-open
+
+# About Widget
+about_widget_avatar_url: /about/avatar.png
+about_widget_text: "The Automaton. A site by Hemant Kohli"
+
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: 
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Media Platforms
+social_platforms:
+#  - url: https://twitter.com/?lang=en
+#    fa_icon: fa-twitter
+#  - url: https://www.facebook.com/
+#    fa_icon: fa-facebook
+#  - url: https://dribbble.com/
+#    fa_icon: fa-dribbble 
+  - url: https://github.com/Hemantkohli1604
+    fa_icon: fa-github
+#  - url: https://plus.google.com/
+#    fa_icon: fa-google-plus
+#  - url: https://www.behance.net/
+#    fa_icon: fa-behance
+#  - url: https://500px.com/
+#    fa_icon: fa-500px
+  - url: mailto:hemantkohli1989@gmail.com
+    fa_icon: fa-envelope
+  - url: /#
+    fa_icon: fa-rss
+
+# Footer about
+#footer_about: "@Hemant Kohli. All right reserved | Design & Hexo <a class=\"link dim white\" href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+footer_about: "@Hemant Kohli. All right reserved.<br> The opinions expressed here are my own personal opinions."
