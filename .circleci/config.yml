@@ -55,4 +55,7 @@ workflows:
    theautomaton:
      jobs:
        - build
-       - deploy
+       - deploy:
+          requires:
+            - build
+         
