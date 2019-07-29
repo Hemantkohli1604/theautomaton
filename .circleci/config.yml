@@ -47,6 +47,7 @@ jobs:
   deploy:
     docker:
       - image: google/cloud-sdk
+    working_directory: ~/repo
     steps:
       - attach_workspace:
           at: ~/repo
