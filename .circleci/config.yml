@@ -34,8 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
           
       - run: |
-          npm run build
-          cp -r public blog/
+          npm run build && cp -rvf public blog/
       
       # run tests!
       #- run: npm test
