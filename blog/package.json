@@ -1,0 +1,13 @@
+{
+  "name": "hemant_app",
+  "version": "1.0.0",
+  "description": "Node.js Blog",
+  "author": "Hemant Kohli <hemantkohli1612@gmail.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
