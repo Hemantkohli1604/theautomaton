@@ -10,6 +10,7 @@
   },
   "scripts": {
     "deploy": "gcloud app deploy",
+    "build": "hexo generate",
     "start": "hexo generate && hexo server -p 8080",
     "system-test": "repo-tools test app",
     "test": "npm run system-test",
