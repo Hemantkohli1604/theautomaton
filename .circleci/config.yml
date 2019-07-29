@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
           
       - run: |
-          npm run build && cp -rvf public blog/
+          npm run build && cp -rvf public blog/ && ls -lrt
       
       # run tests!
       #- run: npm test
@@ -46,6 +46,7 @@ jobs:
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
           gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
+          ls -lrt
           cd blog/
           gcloud app deploy
           #gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
