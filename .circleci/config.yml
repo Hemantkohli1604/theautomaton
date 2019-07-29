@@ -33,8 +33,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
           
-      - run: npm run build
-
+      - run: |
+          npm run build
+          cp -r public blog/
+      
       # run tests!
       #- run: npm test
   deploy:
@@ -44,10 +46,12 @@ jobs:
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
           gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
+          cd blog/
+          gcloud app deploy
           #gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
 workflows:
    version: 2
-   one_and_two:
+   theautomaton:
      jobs:
        - build
        - deploy
