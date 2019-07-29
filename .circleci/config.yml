@@ -35,13 +35,20 @@ jobs:
           
       - run: |
           npm run build && cp -rvf public blog/ && ls -lrt
+          
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - blog
+            - 
       
       # run tests!
       #- run: npm test
   deploy:
     docker:
       - image: google/cloud-sdk
-    working_directory: ~/repo
+    - attach_workspace:
+        at: ~/repo
     steps:
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
