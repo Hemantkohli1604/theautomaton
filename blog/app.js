@@ -29,6 +29,10 @@ app.get('/', (req, res) => {
     .end();
 });
 */
+
+app.get('/api', function (req, res) {
+	res.redirect('https://backendapp01.azurewebsites.net/')
+});
 // Start the server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

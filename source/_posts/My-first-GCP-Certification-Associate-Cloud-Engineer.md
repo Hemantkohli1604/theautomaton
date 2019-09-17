@@ -9,7 +9,10 @@ categories:
   - Google Cloud
 date: 2019-07-28 09:57:00
 ---
-On 27th July 2019 I attempted my first google certification exam i.e Associate Cloud Engineer(ACE) which is the associate level exam in google cloud certifications stack. Being an associate level exam it becomes a good stepping stone for professional level exams that I intend to give later on. I am sharing my experience before giving the exam and afterwards with you:
+On 27th July 2019 I attempted my first google certification exam i.e Associate Cloud Engineer(ACE) which is the associate level exam in google cloud certifications stack. Being an associate level exam it becomes a good stepping stone for professional level exams that I intend to give later on.
+
+https://www.credential.net/kd8e7o3y
+
 
 The followed the below mentioned approach for the exam. 
 

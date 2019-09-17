@@ -25,7 +25,7 @@ archive_font_awesome_icon_css: fa-folder-open
 
 # About Widget
 about_widget_avatar_url: /about/avatar.png
-about_widget_text: "The Automaton. Hemant Kohli"
+about_widget_text: "The Automaton<br>Hemant Kohli<br>AWS and GCP Certified Associate"
 
 
 # Comments.
@@ -59,4 +59,4 @@ social_platforms:
 
 # Footer about
 #footer_about: "@Hemant Kohli. All right reserved | Design & Hexo <a class=\"link dim white\" href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
-footer_about: "@Hemant Kohli. All right reserved.<br> The opinions expressed here are my own personal opinions."
+footer_about: "@Hemant Kohli. All right reserved.<br> AWS and GCP Certified Associate.<br> The opinions expressed here are my own personal opinions."
